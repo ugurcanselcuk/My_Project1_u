@@ -1,0 +1,47 @@
+﻿body
+{overflow-x: hidden;
+word-wrap: break-word;
+}
+
+#img-1 {
+    display: block;
+    width: vw
+}
+
+
+
+.caption {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#invis-col-1 {
+    visibility: hidden;
+}
+
+#change-placement-1 {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    transform: translate( -5%, 10% );
+}
+
+#card-shadow-1{
+    box-shadow: 10px 10px 30px grey;
+}
+
+
+
+
+ @font-face { font-family: BebasNeue; src: url('fonts/BebasNeue-Regular.otf'); } 
+ @font-face { font-family: BebasNeue; font-weight: bold; src: url('fonts/BebasNeue-Bold.otf');}
+
+ @font-face { font-family: Montserrat; src: url('fonts/Montserrat-Regular.otf'); } 
+ @font-face { font-family: Montserrat; font-weight: bold; src: url('fonts/Montserrat-Bold.otf');}
+
+ @font-face { font-family: AlfaSlabOne; src: url('fonts/AlfaSlabOne-Regular.ttf'); } 
